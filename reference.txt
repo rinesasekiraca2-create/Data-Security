@@ -1,0 +1,8 @@
+
+Computer security is the practice of protecting systems, networks, and programs from digital attacks.
+These attacks are usually aimed at accessing, changing, or destroying sensitive information.
+In cryptography, frequency analysis is one of the oldest techniques used to break simple ciphers.
+By studying how often letters appear in a language, we can identify patterns that help reveal hidden messages.
+The English language has a predictable distribution of letters, with some appearing much more frequently than others.
+This property is very useful when attacking substitution ciphers such as the Caesar cipher.
+Understanding patterns in text is an important step in modern data security and cryptanalysis.
