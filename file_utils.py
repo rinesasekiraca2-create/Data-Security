@@ -1,4 +1,4 @@
-def read_file(filename):
+def read_file(filename): # Lexon tekst nga një file dhe e kthen në lowercase
 
     try:
 
@@ -13,7 +13,7 @@ def read_file(filename):
         return ""
 
 
-def save_output(filename, text):
+def save_output(filename, text): # Ruan tekstin në një file
 
     with open(filename, 'w', encoding='utf-8') as f:
 
