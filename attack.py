@@ -13,3 +13,9 @@ def chi_squared(observed, expected):
             score += ((o - e) ** 2) / e
     return score
 
+def break_caesar(cipher_text, reference_freq):
+    best_shift = 0
+    best_score = float('inf')
+    best_text = ""
+
+    print("\nDuke provuar 26 shift-e...\n")
