@@ -2,5 +2,24 @@ from file_utils import read_file, save_output
 
 from frequency import calculate_frequency, print_frequency
 
-from attack import break_caesar 
+from attack import break_caesar
+
+def main():
+
+    print("=== Caesar Cipher Attack ===\n")
+
+
+
+    reference = read_file("reference.txt")
+
+    cipher = read_file("cipher.txt")
+
+
+
+    if not reference or not cipher:
+
+        print("Gabim me file-at!")
+
+        return
+
 
