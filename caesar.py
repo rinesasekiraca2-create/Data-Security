@@ -17,3 +17,20 @@ def encrypt(text, shift):
             result += c
 
     return result
+
+# dekripton tekstin duke hequr shift (kthen tekstin origjinal)
+def decrypt(text, shift):
+    result = ""
+
+    for c in text:
+        if c in ALPHABET:
+            # heq shift per me kthy shkronjen origjinale
+            idx = (ALPHABET.index(c) - shift) % 26
+            result += ALPHABET[idx]
+        else:
+            result += c
+
+    return result
+
+
+
