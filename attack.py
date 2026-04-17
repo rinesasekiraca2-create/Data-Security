@@ -20,7 +20,7 @@ def break_caesar(cipher_text, reference_freq):
 
     print("\nDuke provuar 26 shift-e...\n")
 
-for shift in range(26):
+    for shift in range(26):
         decrypted = decrypt(cipher_text, shift)
         freq = calculate_frequency(decrypted)
         score = chi_squared(freq, reference_freq)
