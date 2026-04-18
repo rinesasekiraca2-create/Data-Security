@@ -22,4 +22,22 @@ def main():
 
         return
 
+  ref_freq = calculate_frequency(reference)
+
+
+
+    print_frequency(ref_freq)
+
+
+
+    shift, decrypted = break_caesar(cipher, ref_freq)
+
+
+
+    print("\n========================")
+
+    print(f"SHIFT I GJETUR: {shift}")
+
+    print("========================\n")
+
 
