@@ -20,7 +20,7 @@ def main():
         print("Gabim me file-at!")
 
         return
-
+    
     ref_freq = calculate_frequency(reference)
 
     print_frequency(ref_freq)
@@ -41,3 +41,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
